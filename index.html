@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <p> TechiePardeep </p>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#product">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="slider">
+        <div class="images">
+            <input type="radio" name="slide" id="img1" checked>
+            <input type="radio" name="slide" id="img2">
+            <input type="radio" name="slide" id="img3">
+            <input type="radio" name="slide" id="img4">
+            <img src="banner/b1.jpg" alt="banner1" class="img1">
+            <img src="banner/b2.jpg" alt="banner2" class="img2">
+            <img src="banner/b3.jpg" alt="banner3" class="img3">
+            <img src="banner/b4.jpg" alt="banner4" class="img4">
+        </div>
+        <div class="dots">
+            <label for="img1"></label>
+            <label for="img2"></label>
+            <label for="img3"></label>
+            <label for="img4"></label>
+        </div>
+    </div>
+    <div id="about">
+        <div class="main">
+            <img src="images/me.jpeg" alt="My Photo">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <h5>Developer <span> & Designer</span></h5>
+                <p>
+                    I am a full-stack web developer. I can provide clean code. I also make the website more & more interactive with web animations. A responsive design make your website accessible to all users, regardless of their device.
+                </p>
+                <button class="talk-btn">let's Talk</button>
+            </div>
+        </div>
+    </div>
+    <div id="product">
+        <div class="gallery">
+            <div class="content">
+                <img src="./images/shoes.jfif" alt="shoes image" />
+                <h3>Shoes</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, asperiores!</p>
+                <h6>Rs. 100.00</h6>
+                <ul>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star "></i></li>
+                </ul>
+                <button class="buy-1">Buy Now</button>
+            </div>
+
+            <div class="content">
+                <img src="./images/mobile.jfif" alt="shoes image" />
+                <h3>Mobile</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, asperiores!</p>
+                <h6>Rs. 200.00</h6>
+                <ul>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star "></i></li>
+                </ul>
+                <button class="buy-2">Buy Now</button>
+
+            </div>
+
+            <div class="content">
+                <img src="./images/computer.jfif" alt="shoes image" />
+                <h3>Computer</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, asperiores!</p>
+                <h6>Rs. 500.00</h6>
+                <ul>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star "></i></li>
+                    <li><i class="fa fa-star "></i></li>
+                </ul>
+                <button class="buy-3">Buy Now</button>
+
+            </div>
+
+            <div class="content">
+                <img src="./images/earphone.jfif" alt="shoes image" />
+                <h3>Earphone</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, asperiores!</p>
+                <h6>Rs. 200.00</h6>
+                <ul>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                </ul>
+                <button class="buy-4">Buy Now</button>
+
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="contact-box">
+            <form action="">
+                <label for="name"></label>
+                <input type="text" id="name" class="input-field" placeholder="Your Name" /><br>
+                <label for="email"></label>
+                <input type="text" id="email" class="input-field" placeholder="Your Email" /><br>
+                <label for="subject"></label>
+                <input type="text" id="subject" class="input-field" placeholder="Subject" /><br>
+                <textarea name="" id="textarea" class="input-field textarea-field" cols="30" rows="10"
+                    placeholder="Your Message"></textarea>
+                <button class="send-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="social">
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">
+            TechiePardeep © Copyright 2023. All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
